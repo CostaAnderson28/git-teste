@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotfluxo</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(../entrega2/fluxo.jpeg) ;
+
+        }
+        .faixasuperior{
+            background-color: black;
+            width:100%;
+            height:83px;
+            padding: 0;
+            display: flex;
+        }
+        
+        h1{
+            color: white;
+
+            
+        }
+
+        #logo{
+            background-color: white;
+            
+        }
+
+        h2{
+            color: white;
+        }
+
+        .blocoprincipal{
+            height:580px;
+            width:420px;
+            background-color: black;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        #email{
+            height: 15px;
+        }
+        #senha{
+            height:15px;
+        }
+        label{
+            color: white
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class ="faixasuperior">
+        <img src="spotfy.png" alt="logo" id="logo">
+        <h1>Spotfluxo</h1>
+    </div>
+    <div class="blocoprincipal">
+        <h2>Entrar no Spotfluxo</h2>
+        
+        <div class="inputs">
+            <label for="email">Email ou Nome de usuário:</label>
+            <input type="text" id="email" name="email" placeholder="Email ou Nome de Usuario">
+        </div>
+        <div class="inputs">
+            <label for="senha">Senha:</label>
+            <input type="text" id="senha"  name="senha"placeholder="Senha">
+        </div>
+    </div>
+
+        
+    
+</body>
+</html>
